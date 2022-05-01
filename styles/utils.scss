@@ -94,11 +94,6 @@ $base: 16px !default;
   text-decoration-skip: if($skip, skip, none);
 }
 
-// Dashed line as background
-@mixin dashed-line($color: black, $direction: 0deg) {
-  background-image: linear-gradient($direction, transparent 25%, $color 25%, $color 50%, transparent 50%, transparent 75%, $color 75%, $color 100%);
-}
-
 // Focus ring techniques
 @mixin focus-ring-outline($border: 2px, $offset: 2px) {
   outline: $border solid var(--color-focus-ring);
