@@ -1,6 +1,8 @@
+import style from './hey.module.scss';
+
 export default function Hey() {
     return (
-        <section>
+        <section className={style.hey}>
           <h2>Hey,</h2>
           <ul>
             <li>
