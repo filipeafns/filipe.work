@@ -5,8 +5,12 @@
 @import "../../styles/scaffold";
 
 .nav {
+  margin: 50px;
   position: relative;
-  display: flex;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 50px;
   ul { display: flex; }
+  span { text-align: center; }
+  .social { justify-content: end; }
 }

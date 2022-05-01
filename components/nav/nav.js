@@ -7,15 +7,15 @@ export default function Nav() {
         <>
             <nav className={style.nav}>
                 <ul>
-                <li><Link href="/"><a>FS</a></Link></li>
-                <li><Link href="/about"><a>↳ About Me</a></Link></li>
-                <li><Link href="/works"><a>↳ Works</a></Link></li>
-                <li><Link href="/contact"><a>↳ Contact</a></Link></li>
+                    <li><Link href="/"><a>FS</a></Link></li>
+                    <li><Link href="/about"><a>↳ About Me</a></Link></li>
+                    <li><Link href="/works"><a>↳ Works</a></Link></li>
+                    <li><Link href="/contact"><a>↳ Contact</a></Link></li>
                 </ul>
                 <span>Filipe Soares</span>
-                <ul>
-                <li><a href="http://linkedin.com/in/fisoares" target="_blank">Linkedin -></a></li>
-                <li><a href="http://instagram.com/filipeafns/" target="_blank">Instagram -></a></li>
+                <ul className={style.social}>
+                    <li><a href="http://linkedin.com/in/fisoares" target="_blank">Linkedin -></a></li>
+                    <li><a href="http://instagram.com/filipeafns/" target="_blank">Instagram -></a></li>
                 </ul> 
             </nav>
         </>
