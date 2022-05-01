@@ -1,0 +1,12 @@
+///////////////////////////////////////////////////////////////////////////////
+// Nav Component                                                             //
+///////////////////////////////////////////////////////////////////////////////
+
+@import "../../styles/scaffold";
+
+.nav {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  ul { display: flex; }
+}
