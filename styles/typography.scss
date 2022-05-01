@@ -1,0 +1,116 @@
+///////////////////////////////////////////////////////////////////////////////
+// Typography                                                                //
+///////////////////////////////////////////////////////////////////////////////
+
+@import "scaffold";
+
+:root {
+  --font-body: "Inter", sans-serif;
+  --font-title: "Inter", sans-serif;
+  --font-hero: "Inter", sans-serif;
+  --font-size: #{$base-mob};
+  --line-height: 1.6;
+
+  @include media(">tablet") {
+    --font-size: #{$base};
+    --line-height: 1.5;
+  }
+
+  @include media(">desktoplarge") {
+    --font-size: #{$base-large};
+  }
+  font-family: var(--font-body);
+  font-size: var(--font-size);
+  line-height: var(--line-height);
+}
+
+* { box-sizing: border-box; }
+
+// Title
+h1 {
+  font-family: var(--font-hero);
+  font-size: 6rem;
+  line-height: .81;
+  text-transform: lowercase;
+
+  > span { @include fontless; }
+
+  @include media(">desktop") {
+    font-size: 6rem;
+  }
+}
+
+h1, h2, h3, h4, h5 { position: relative; }
+h2, h3, h4, h5 { font-family: var(--font-title); }
+
+h2, h3 {
+  margin-top: 0;
+  margin-bottom: .67rem;
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 1;
+}
+
+h2 {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-size: 4rem;
+  span { @include fontless; }
+
+  @include media(">tablet") {
+    span { @include fontful; }
+  }
+}
+
+h4 {}
+h5 {}
+
+// Paragraph
+p {
+  margin-top: 0;
+  margin-bottom: 1.875rem;
+}
+
+label,
+.label {
+  line-height: 1;
+}
+
+blockquote,
+figure { margin: 0; }
+
+
+::selection { background-color: #900bef59; }
+
+// Link
+a {
+  position: relative;
+  display: inline-block;
+  transition: all .15s ease-in-out;
+
+  &, &:visited {
+    color: var(--color-text);
+
+    @include underline($color: #{var(--color-text)}, $thickness: 1px);
+  }
+
+  &:hover {
+    text-decoration-thickness: 2px;
+    text-decoration-width: 2px;
+  }
+  &:active { top: 1px; }
+}
+
+// List
+ul, ol {
+  padding: 0;
+  margin: 0;
+  list-style-position: inside;
+  list-style-type: none;
+}
+
+ul {}
+ol {}
+li {}
+dl {}
+dl {}

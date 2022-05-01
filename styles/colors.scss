@@ -1,0 +1,21 @@
+///////////////////////////////////////////////////////////////////////////////
+// Colors                                                                    //
+///////////////////////////////////////////////////////////////////////////////
+
+:root {
+    // stylelint-disable
+    --purple            : #F2EEFF;
+    --black             : #211d1d;
+    --white             : #ffffff;
+    --gray              : #F6F6F6;
+  
+    --color-primary     : var(--purple);
+  
+    --color-base        : var(--purple);
+    --color-text        : var(--black);
+    --color-text-inverse: var(--white);
+    // stylelint-enable
+    
+    color: var(--color-text);
+    background-color: var(--color-base);
+  }
