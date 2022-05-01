@@ -1,6 +1,8 @@
+import style from './work.module.scss';
+
 export default function Work() {
     return (
-        <section>
+        <section className={style.work}>
           <h2>Work</h2>
           <p>I Strong vein for Product and Visual design. Here a couple of things I'm pround of, Or check All cases -></p>
           <div>

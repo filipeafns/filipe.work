@@ -1,6 +1,8 @@
+import style from './around.module.scss';
+
 export default function Around() {
     return (
-        <section>
+        <section className={style.around}>
           <h2>I'been Around</h2>
           <div>
             <p>+11 Years Creating Brands, Digital Products, Print, Engaging Visuals, Illustrations, Animations and still going...</p>

@@ -1,6 +1,8 @@
+import style from './social.module.scss';
+
 export default function Social() {
     return (
-        <section>
+        <section className={style.social}>
           <ul>
             <li>
               <div>
