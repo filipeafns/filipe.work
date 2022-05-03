@@ -9,7 +9,11 @@ import Around from '../components/section/around'
 import Social from '../components/section/social'
 import Footer from '../components/footer'
 
-import Spline from '@splinetool/react-spline';
+import dynamic from 'next/dynamic';
+
+const Spline = dynamic(() => import('@splinetool/react-spline'), {
+  ssr: false,
+});
 
 import style from './index.module.scss';
 
