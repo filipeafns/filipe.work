@@ -18,9 +18,30 @@ html,
 body {
   padding: 0;
   margin:0;
-  background-color: var(color--base);
-  font-family: 'Inter', Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Inter', sans-serif;
+  animation-name: backgroundColorPalette;
+	animation-duration: 60s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-timing-function: linear; 
+}
+
+@keyframes backgroundColorPalette {
+	0% {
+		background: #F2EEFF;
+	}
+	25% {
+		background: #ceefff;
+	}
+	50% {
+		background: #cffcdf;
+	}
+	75% {
+		background: #fcf1d8;
+	}
+	100% {
+		background: #ffe6f1;
+	}
 }
 
 a {
