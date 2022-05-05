@@ -4,9 +4,9 @@ export default function Around() {
     return (
         <section className={style.around}>
           <div>
-            <h2>I'been Around</h2>
+            <h2>I've been Around</h2>
             <div>
-              <p>+11 Years Creating Brands, Digital Products, Print, Engaging Visuals, Illustrations, Animations and still going...</p>
+              <h3>+11 Years Creating Brands, Digital Products, Print, Engaging Visuals, Illustrations, Animations and still going...</h3>
               <picture></picture>
             </div>
           </div>

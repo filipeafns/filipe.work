@@ -12,13 +12,20 @@
         display: grid;
         position: relative;
         max-width: $max-width;
+        > div { 
+            display: flex;
+            flex: 0 auto;
+            justify-content: space-between;
+            margin-bottom: 5rem;
+            h3 { flex: 35% 0;}
+        }
     }
     ul { 
         display: grid;
         width: 100%;
         grid-auto-flow: column;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(2, auto);
-        column-gap: $gap;
+        grid-template-columns: repeat(3, 437px);
+        grid-template-rows: repeat(3, 437px);
+        gap: $gap;
     }
 }
