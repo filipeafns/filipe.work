@@ -5,7 +5,24 @@
 @import "../../styles/scaffold";
 
 .around {
-    position: relative;
-
-    ul { display: flex;}
+    background-color: var(--color-base-light);
+    padding: 4rem 0;
+    div {
+        margin: auto;
+        position: relative;
+        max-width: $max-width;
+        div {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            column-gap: $gap;
+        }
+    }
+    ul { 
+        display: grid;
+        grid-auto-flow: column;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: $gap;
+        max-width: $max-width;
+        margin: auto;
+    }
 }

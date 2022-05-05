@@ -1,19 +1,19 @@
 ///////////////////////////////////////////////////////////////////////////////
-// Hey Component                                                             //
+// Footer Section                                                            //
 ///////////////////////////////////////////////////////////////////////////////
 
 @import "../../styles/scaffold";
 
-.hey {
+.footer {
     display: grid;
     position: relative;
     max-width: $max-width;
     margin: auto;
     padding: 4rem 0;
-    ul { 
+    >div { 
         display: grid;
         grid-auto-flow: column;
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         column-gap: $gap;
     }
 }

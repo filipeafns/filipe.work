@@ -9,12 +9,6 @@ import Around from '../components/section/around'
 import Social from '../components/section/social'
 import Footer from '../components/footer'
 
-import dynamic from 'next/dynamic';
-
-const Spline = dynamic(() => import('@splinetool/react-spline'), {
-  ssr: false,
-});
-
 import style from './index.module.scss';
 
 export default function Home() {
@@ -29,7 +23,6 @@ export default function Home() {
         <main>
           <Nav />
           <Header />
-          <Spline scene="https://prod.spline.design/NGFgjq0ZjYbCtk5E/scene.spline" />
           <Hey />
           <Exploring />
           <Work />

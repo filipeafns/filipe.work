@@ -10,12 +10,14 @@
   "dependencies": {
     "@splinetool/react-spline": "^2.1.0",
     "@splinetool/runtime": "^0.9.38",
+    "classnames": "^2.3.1",
     "include-media": "^1.4.10",
     "next": "12.1.0",
     "node-sass": "^7.0.1",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
-    "sass": "^1.49.11"
+    "sass": "^1.49.11",
+    "sass-math": "^1.0.0"
   },
   "devDependencies": {
     "eslint": "8.11.0",

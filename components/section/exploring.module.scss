@@ -5,7 +5,15 @@
 @import "../../styles/scaffold";
 
 .exploring {
+    display: grid;
     position: relative;
-
-    ul { display: flex;}
+    max-width: $max-width;
+    margin: auto;
+    padding: 4rem 0;
+    ul { 
+        display: grid;
+        grid-auto-flow: column;
+        grid-template-columns: repeat(4, 1fr);
+        column-gap: $gap;
+    }
 }

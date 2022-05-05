@@ -5,6 +5,20 @@
 @import "../../styles/scaffold";
 
 .work {
-    position: relative;
     background-color: var(--color-base-light);
+    padding: 4rem 0;
+    > div {
+        margin: auto;
+        display: grid;
+        position: relative;
+        max-width: $max-width;
+    }
+    ul { 
+        display: grid;
+        width: 100%;
+        grid-auto-flow: column;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, auto);
+        column-gap: $gap;
+    }
 }
