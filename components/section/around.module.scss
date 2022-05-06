@@ -6,7 +6,7 @@
 
 .around {
     background-color: var(--color-base-light);
-    padding: 4rem 0;
+    padding: 1rem;
     div {
         margin: auto;
         position: relative;
@@ -17,12 +17,15 @@
             column-gap: $gap;
         }
     }
-    ul { 
-        display: grid;
-        grid-auto-flow: column;
-        grid-template-columns: repeat(3, 1fr);
-        column-gap: $gap;
-        max-width: $max-width;
-        margin: auto;
+    @include media(">tablet") {
+        padding: 4rem 0;
+        ul { 
+            display: grid;
+            grid-auto-flow: column;
+            grid-template-columns: repeat(3, 1fr);
+            column-gap: $gap;
+            max-width: $max-width;
+            margin: auto;
+        }
     }
 }

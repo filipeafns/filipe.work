@@ -5,15 +5,17 @@
 @import "../../styles/scaffold";
 
 .nav {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 50px;
-  position: relative;
-  margin: auto;
-  margin-top: 25px;
-  margin-bottom: 25px;
-  max-width: $max-width;
-  ul { display: flex; }
-  span { text-align: center; }
-  .social { justify-content: end; }
+  @include media(">tablet") {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 50px;
+    position: relative;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    max-width: $max-width;
+    ul { display: flex; }
+    span { text-align: center; }
+    .social { justify-content: end; }
+  }
 }
