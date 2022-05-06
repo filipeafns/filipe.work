@@ -11,7 +11,7 @@ export default function Header() {
         <header  className={style.header}>
           <section className={cn(style.title, 'grid container')}>
             <h1>Hey, I'm Filipe Soares. I'm a Product and Visual Designer.</h1>
-            {/* <Spline scene="https://prod.spline.design/NGFgjq0ZjYbCtk5E/scene.spline" /> */}
+            <Spline scene="https://prod.spline.design/rlUVl0RxykOsS2kZ/scene.splinecode" />
           </section>
         </header>
     )

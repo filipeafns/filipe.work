@@ -9,11 +9,14 @@
     position: relative;
     max-width: $max-width;
     margin: auto;
-    padding: 4rem 0;
-    ul { 
-        display: grid;
-        grid-auto-flow: column;
-        grid-template-columns: repeat(4, 1fr);
-        column-gap: $gap;
+    padding: 1rem;
+    @include media(">tablet") {
+        padding: 4rem 0;
+        ul { 
+            display: grid;
+            grid-auto-flow: column;
+            grid-template-columns: repeat(4, 1fr);
+            column-gap: $gap;
+        }
     }
 }

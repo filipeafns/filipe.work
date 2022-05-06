@@ -6,17 +6,22 @@
 
 .social {
     background-color: var(--color-base-light);
-    padding: 4rem 0;
+    padding: 1rem;
     div {
         margin: auto;
         display: grid;
         position: relative;
         max-width: $max-width;
-        ul { 
-            display: grid;
-            grid-auto-flow: column;
-            grid-template-columns: repeat(3, 1fr);
-            column-gap: $gap;
+    }
+    @include media(">tablet") {
+        padding: 4rem 0;
+        div {
+            ul { 
+                display: grid;
+                grid-auto-flow: column;
+                grid-template-columns: repeat(3, 1fr);
+                column-gap: $gap;
+            }
         }
     }
 }
