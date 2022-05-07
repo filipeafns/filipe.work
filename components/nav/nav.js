@@ -9,7 +9,7 @@ export default function Nav() {
                 <ul>
                     <li><Link href="/"><a>FS</a></Link></li>
                     <li><Link href="/about"><a>↳ About Me</a></Link></li>
-                    <li><Link href="/works"><a>↳ Works</a></Link></li>
+                    <li><Link href="/lab"><a>↳ Lab</a></Link></li>
                     <li><Link href="/contact"><a>↳ Contact</a></Link></li>
                 </ul>
                 <span>Filipe Soares</span>
