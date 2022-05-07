@@ -19,7 +19,7 @@
             display: grid;
             width: 100%;
             flex-direction: row;
-            gap: $gap;
+            gap: calc($gap / 2);
         }
         li { height: 437px;}
     }

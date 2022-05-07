@@ -11,14 +11,16 @@
         margin: auto;
         position: relative;
         max-width: $max-width;
-        div {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            column-gap: $gap;
-        }
     }
     @include media(">tablet") {
         padding: 4rem 0;
+        div {
+            div {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                column-gap: $gap;
+            }
+        }
         ul { 
             display: grid;
             grid-auto-flow: column;
