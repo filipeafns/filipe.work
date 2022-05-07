@@ -33,7 +33,6 @@ h1 {
   font-weight: 400;
   line-height: .91;
   letter-spacing: -.2rem;
-  text-transform: lowercase;
 
   > span { @include fontless; }
 
