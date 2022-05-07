@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import React, { Component }  from 'react';
 
 import Layout, { siteTitle } from '../components/layout';
 import Nav from '../components/nav'
