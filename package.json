@@ -21,6 +21,7 @@
   },
   "devDependencies": {
     "eslint": "^8.15.0",
-    "eslint-config-next": "12.1.0"
+    "eslint-config-next": "12.1.0",
+    "webpack": "^5.72.0"
   }
 }
