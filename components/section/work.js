@@ -8,7 +8,7 @@ export default function Work() {
           <div>
             <h2>Work</h2>
             <div>
-              <h3>I Strong vein for Product and Visual design. Here a couple of things I'm pround of, Or check All cases -></h3>
+              <h3>I Strong vein for Product and Visual design. Here a couple of things I'm pround of, Or check All cases</h3>
               <svg width="28" height="69" viewBox="0 0 28 69" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M-6.1196e-07 14.2037L14 0.203735L28 14.2037L25.625 16.61L15.7188 6.70373L15.7187 62.0162L25.625 52.11L28 54.5162L14 68.5162L-2.37407e-06 54.5162L2.40625 52.11L12.2812 62.0162L12.2812 6.70373L2.40625 16.61L-6.1196e-07 14.2037Z" fill="black"/>
               </svg>
