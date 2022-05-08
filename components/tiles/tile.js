@@ -7,9 +7,11 @@ export default function Tile({company, year, description}) {
     return (
       <>
         <li className={cn(style.tile, style.square)}>
-            <p>{company}</p>
-            <legend>{year}</legend>
-            <span>{description}</span>
+            <div>
+              <p>{company}</p>
+              <legend>{year}</legend>
+              <span>{description}</span>
+            </div>
             <Image
               src="/images/works/dyramid.png"
               alt="Case Image"

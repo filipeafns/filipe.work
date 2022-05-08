@@ -6,10 +6,10 @@
 
 
 .tile {
-    padding: calc($gap / 2);
     position: relative;
     background-color: var(--gray);
     border-radius: calc($radius * 2);
+    div { padding: 3rem;}
     &.square { aspect-ratio: 1 / 1; }
     &.wide { 
         grid-column: 2 / 3 ;

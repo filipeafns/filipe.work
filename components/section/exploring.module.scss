@@ -21,7 +21,10 @@
         margin: auto;
         width: 100%;
         margin-bottom: 2rem;
-        li { margin-right: $gap;}
+        li { 
+            margin-right: $gap;
+            flex: 1 0 auto;
+        }
         li:first-child { margin-left: 1rem;}
     }
     @include media(">tablet") {
