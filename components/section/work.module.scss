@@ -12,16 +12,13 @@
         display: grid;
         position: relative;
         max-width: $max-width;
-        > div { 
-            display: flex;
-        }
+        > div { display: flex; }
         ul {
             display: grid;
             width: 100%;
             flex-direction: row;
             gap: calc($gap / 2);
         }
-        li { height: 437px;}
     }
     @include media(">tablet") {
         padding: 4rem 0;
@@ -39,9 +36,8 @@
             }
         }
         ul { 
-            grid-auto-flow: column;
-            grid-template-columns: repeat(3, 437px);
-            grid-template-rows: repeat(3, 437px);
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(3, 1fr);
         }
     }
 }

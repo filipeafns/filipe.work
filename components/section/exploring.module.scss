@@ -7,16 +7,40 @@
 .exploring {
     display: grid;
     position: relative;
-    max-width: $max-width;
     margin: auto;
-    padding: 1rem;
+    h2, h3, h4 {
+        width: 100%;
+        margin-bottom: $gap;
+        padding: 1rem;
+     }
+    ul { 
+        display: flex;
+        overflow-x: scroll;
+        height: 500px;
+        flex-direction: row;
+        margin: auto;
+        width: 100%;
+        margin-bottom: 2rem;
+        li { margin-right: $gap;}
+        li:first-child { margin-left: 1rem;}
+    }
     @include media(">tablet") {
         padding: 4rem 0;
+        h2, h3, h4 {
+           width: $max-width;
+           margin: auto;
+           margin-bottom: $gap;
+        }
         ul { 
-            display: grid;
-            grid-auto-flow: column;
-            grid-template-columns: repeat(4, 1fr);
-            column-gap: $gap;
+            display: flex;
+            overflow-x: scroll;
+            height: 300px;
+            flex-direction: row;
+            margin: auto;
+            width: 100%;
+            margin-bottom: 2rem;
+            li:first-child { margin-left: calc((100vw - 1440px) / 2 );}
+            &::-webkit-scrollbar { display: none; }
         }
     }
 }

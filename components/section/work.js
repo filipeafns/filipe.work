@@ -15,8 +15,9 @@ export default function Work() {
             </div>
             <div>
               <ul className={cn('grid')}>
-                <Tile company="Vtex" year="2021" />
-                <Tile company="Dyramid" year="2020" description="Teste" />
+                <Tile company="Vtex" year="2021"/>
+                <Tile company="Dyramid" year="2020" description="Teste"/>
+                <Tile />
                 <Tile />
                 <Tile />
                 <Tile />
