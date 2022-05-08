@@ -6,7 +6,7 @@ import Image from 'next/image';
 export default function Tile({company, year, description}) {
     return (
       <>
-        <li className={cn(style.tile)} >
+        <li className={cn(style.tile, style.square)}>
             <p>{company}</p>
             <legend>{year}</legend>
             <span>{description}</span>
