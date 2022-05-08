@@ -16,7 +16,7 @@
     ul { 
         display: flex;
         overflow-x: scroll;
-        height: 500px;
+        height: 350px;
         flex-direction: row;
         margin: auto;
         width: 100%;
@@ -30,7 +30,7 @@
     @include media(">tablet") {
         padding: 4rem 0;
         h2, h3, h4 {
-           width: $max-width;
+           width: 100%;
            margin: auto;
            margin-bottom: $gap;
         }

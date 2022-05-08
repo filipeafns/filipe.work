@@ -5,27 +5,24 @@
 @import "../../styles/scaffold";
 
 .header {
-    display: grid;
-    position: relative;
-    grid-template-rows: 1fr auto;
-    grid-auto-flow: column;
-    row-gap: calc(var(--gap) * 2);
-    height: 55vh;
-    max-width: $max-width;
-    margin: auto;
-    align-items: center;
-    h1 {
-        grid-column: 1 / span calc(var(--columns) + 2);
-        margin: 0;
-        text-align: center;
-        z-index: 1;
-      }
-
-    div {
-        position: absolute;
-        height: 100%;
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%, -50%);
+    h1 { text-align: center; }
+    @include media(">tablet") {
+        display: flex;
+        position: relative;
+        max-width: $max-width;
+        margin: auto;
+        align-items: center;
+        h1 {
+            margin: 0;
+            z-index: 1;
+        }
+        height: 55vh;
+        div {
+            position: absolute;
+            height: 100%;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
     }
 }
