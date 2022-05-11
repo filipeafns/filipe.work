@@ -63,6 +63,30 @@ export default function Exploring() {
                   placeholder='blur'
                 />
             </li>
+            <li className={cn(style.tile, style.square)}>
+                <div>
+                  <p></p>
+                  <legend></legend>
+                  <span></span>
+                </div>
+                <Image
+                  src={lab4}
+                  layout="fill"
+                  placeholder='blur'
+                />
+            </li>
+            <li className={cn(style.tile, style.square)}>
+                <div>
+                  <p></p>
+                  <legend></legend>
+                  <span></span>
+                </div>
+                <Image
+                  src={lab4}
+                  layout="fill"
+                  placeholder='blur'
+                />
+            </li>
           </ul>
         </section>
     )
