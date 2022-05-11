@@ -12,6 +12,12 @@ import petplate from '../../public/images/works/petplate.png';
 import urbano from '../../public/images/works/urbano.png';
 
 
+import dynamic from 'next/dynamic';
+
+const Spline = dynamic(() => import('@splinetool/react-spline'), {
+  ssr: false,
+});
+
 
 export default function Work() {
 
@@ -45,11 +51,7 @@ export default function Work() {
                       <legend></legend>
                       <span></span>
                     </div>
-                    <Image
-                      src={dyramid}
-                      layout="responsive"
-                      placeholder='blur'
-                    />
+                    <Spline scene="https://prod.spline.design/ll9uBn-RJ0t75phu/scene.splinecode" />
                 </li>
                 <li className={cn(style.tile, style.square)}>
                     <div>
@@ -82,7 +84,31 @@ export default function Work() {
                       <span></span>
                     </div>
                     <Image
+                      src={clearworks}
+                      layout="responsive"
+                      placeholder='blur'
+                    />
+                </li>
+                <li className={cn(style.tile, style.wideStart)}>
+                    <div>
+                      <p></p>
+                      <legend></legend>
+                      <span></span>
+                    </div>
+                    <Image
                       src={buzz}
+                      layout="responsive"
+                      placeholder='blur'
+                    />
+                </li>
+                <li className={cn(style.tile, style.square)}>
+                    <div>
+                      <p></p>
+                      <legend></legend>
+                      <span></span>
+                    </div>
+                    <Image
+                      src={urbano}
                       layout="responsive"
                       placeholder='blur'
                     />

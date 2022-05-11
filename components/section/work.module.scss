@@ -37,7 +37,7 @@
         }
         ul { 
             grid-template-columns: repeat(3, 1fr);
-            grid-template-rows: repeat(3, 1fr);
+            grid-template-rows: repeat(5, 1fr);
         }
     }
     .tile {
@@ -52,8 +52,7 @@
             transform: scale(1.02); 
         }
         div { 
-            position: absolute;
-            padding: 3rem;
+            position: absolute; 
         }
     }
     @include media(">tablet") {
