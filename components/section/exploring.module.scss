@@ -30,9 +30,10 @@
     @include media(">tablet") {
         padding: 4rem 0;
         h2, h3, h4 {
-           width: 100%;
+           width: $max-width;
            margin: auto;
            margin-bottom: $gap;
+           padding: 0;
         }
         ul { 
             display: flex;
@@ -42,8 +43,17 @@
             margin: auto;
             width: 100%;
             margin-bottom: 2rem;
-            li:first-child { margin-left: calc((100vw - 1440px) / 2 );}
+            li:first-child { margin-left: calc((100% - 1400px) / 2 );}
             &::-webkit-scrollbar { display: none; }
         }
+    }
+    .tile {
+        position: relative;
+        background-color: var(--gray);
+        border-radius: calc($radius * 2);
+        overflow: hidden;
+        flex: 0 0 auto;
+        div { padding: 3rem;}
+        &.square { aspect-ratio: 1 / 1; }
     }
 }
