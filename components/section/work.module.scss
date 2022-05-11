@@ -45,9 +45,11 @@
         background-color: var(--gray);
         border-radius: calc($radius * 2);
         overflow: hidden;
-        span { transition: all .2s ease-in-out; }
-        span:hover {
-            transform: scale(1.02);
+        -webkit-mask-image: -webkit-radial-gradient(white, black);
+        span {
+            transition: all .2s ease-in-out; }
+        span:hover { 
+            transform: scale(1.02); 
         }
         div { 
             position: absolute;

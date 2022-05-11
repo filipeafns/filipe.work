@@ -52,8 +52,12 @@
         background-color: var(--gray);
         border-radius: calc($radius * 2);
         overflow: hidden;
+        -webkit-mask-image: -webkit-radial-gradient(white, black);
         flex: 0 0 auto;
-        span { transition: all .2s ease-in-out; }
+        span { 
+            transition: all .2s ease-in-out;
+            overflow: hidden;
+        }
         span:hover { transform: scale(1.02); }
         div { padding: 3rem;}
         &.square { aspect-ratio: 1 / 1; }
