@@ -12,7 +12,7 @@ export default function Exploring() {
     return (
         <section className={style.exploring}>
           <h2>I'm Exploring</h2>
-          <h3>Design for me has always been about exploring possibilities, either in Print, Code or Beyond. I Want to bring amazing things to the world.</h3>
+          <h3>Design for me has always been about exploring possibilities, either in Print, Code or Beyond. You'll find me exploring new tools and ways to bring amazing things to the our digital lives.</h3>
           <h4>Recent Exploration</h4>
           <ul>
             <li className={cn(style.tile, style.square)}>
