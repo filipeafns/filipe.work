@@ -1,8 +1,20 @@
 import style from './work.module.scss';
 import cn from 'classnames';
-import Tile from '../tiles/tile';
+
+import Image from 'next/image';
+
+import dyramid from '../../public/images/works/dyramid.png';
+import buzz from '../../public/images/works/buzz.png';
+import clearworks from '../../public/images/works/clearworks.png';
+import imagine from '../../public/images/works/imagine.png';
+import integra from '../../public/images/works/integra.png';
+import petplate from '../../public/images/works/petplate.png';
+import urbano from '../../public/images/works/urbano.png';
+
+
 
 export default function Work() {
+
     return (
         <section className={cn(style.work, 'grid')}>
           <div>
@@ -15,15 +27,66 @@ export default function Work() {
             </div>
             <div>
               <ul className={cn('grid')}>
-                <Tile company="Vtex" year="2021"/>
-                <Tile company="Dyramid" year="2020" description="Teste"/>
-                <Tile />
-                <Tile />
-                <Tile />
-                <Tile />
-                <Tile />
-                <Tile />
-                <Tile />
+                <li className={cn(style.tile, style.wideStart)}>
+                    <div>
+                      <p></p>
+                      <legend></legend>
+                      <span></span>
+                    </div>
+                    <Image
+                      src={integra}
+                      layout="responsive"
+                      placeholder='blur'
+                    />
+                </li>
+                <li className={cn(style.tile, style.square)}>
+                    <div>
+                      <p></p>
+                      <legend></legend>
+                      <span></span>
+                    </div>
+                    <Image
+                      src={dyramid}
+                      layout="responsive"
+                      placeholder='blur'
+                    />
+                </li>
+                <li className={cn(style.tile, style.square)}>
+                    <div>
+                      <p></p>
+                      <legend></legend>
+                      <span></span>
+                    </div>
+                    <Image
+                      src={imagine}
+                      layout="responsive"
+                      placeholder='blur'
+                    />
+                </li>
+                <li className={cn(style.tile, style.wideEnd)}>
+                    <div>
+                      <p></p>
+                      <legend></legend>
+                      <span></span>
+                    </div>
+                    <Image
+                      src={petplate}
+                      layout="responsive"
+                      placeholder='blur'
+                    />
+                </li>
+                <li className={cn(style.tile, style.wideEnd)}>
+                    <div>
+                      <p></p>
+                      <legend></legend>
+                      <span></span>
+                    </div>
+                    <Image
+                      src={buzz}
+                      layout="responsive"
+                      placeholder='blur'
+                    />
+                </li>
               </ul>
             </div>
           </div>

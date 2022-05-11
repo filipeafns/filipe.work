@@ -40,4 +40,29 @@
             grid-template-rows: repeat(3, 1fr);
         }
     }
+    .tile {
+        position: relative;
+        background-color: var(--gray);
+        border-radius: calc($radius * 2);
+        overflow: hidden;
+        span { transition: all .2s ease-in-out; }
+        span:hover {
+            transform: scale(1.02);
+        }
+        div { 
+            position: absolute;
+            padding: 3rem;
+        }
+    }
+    @include media(">tablet") {
+        .square { aspect-ratio: 1 / 1; }
+        .wideStart { 
+            grid-column: 1 / 3 ;
+        }
+        .wideEnd { 
+            grid-column: 2 / -1 ;
+        }
+    }
 }
+
+
