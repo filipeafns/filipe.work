@@ -7,6 +7,8 @@ import lab1 from '../../public/images/lab/lab1.png';
 import lab2 from '../../public/images/lab/lab2.png';
 import lab3 from '../../public/images/lab/lab3.png';
 import lab4 from '../../public/images/lab/lab4.png';
+import lab5 from '../../public/images/lab/lab5.png';
+import lab6 from '../../public/images/lab/lab6.png';
 
 export default function Exploring() {
     return (
@@ -70,7 +72,7 @@ export default function Exploring() {
                   <span></span>
                 </div>
                 <Image
-                  src={lab4}
+                  src={lab5}
                   layout="fill"
                   placeholder='blur'
                 />
@@ -82,7 +84,7 @@ export default function Exploring() {
                   <span></span>
                 </div>
                 <Image
-                  src={lab4}
+                  src={lab6}
                   layout="fill"
                   placeholder='blur'
                 />
