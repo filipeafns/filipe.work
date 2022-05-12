@@ -29,6 +29,12 @@
         li:first-child { margin-left: 1rem;}
     }
     @include media(">tablet") {
+        canvas { 
+            min-width: 100%;
+            max-width: 100%;
+        }
+    }
+    @include media(">tablet") {
         padding: 4rem 0;
         h2, h3, h4 {
            width: $max-width;
