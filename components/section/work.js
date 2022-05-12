@@ -45,14 +45,14 @@ export default function Work() {
                       placeholder='blur'
                     />
                 </li>
-                <li className={cn(style.tile, style.square)}>
+                {/* <li className={cn(style.tile, style.square)}>
                     <div>
                       <p></p>
                       <legend></legend>
                       <span></span>
                     </div>
                     <Spline scene="https://prod.spline.design/ll9uBn-RJ0t75phu/scene.splinecode" />
-                </li>
+                </li> */}
                 <li className={cn(style.tile, style.square)}>
                     <div>
                       <p></p>
