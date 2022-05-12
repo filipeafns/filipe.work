@@ -33,7 +33,7 @@ export default function Work() {
             </div>
             <div>
               <ul className={cn('grid')}>
-                <li className={cn(style.tile, style.wideStart)}>
+                <li className={cn(style.tile, style.wideEnd)}>
                     <div>
                       <p></p>
                       <legend></legend>
@@ -41,7 +41,7 @@ export default function Work() {
                     </div>
                     <Image
                       src={integra}
-                      layout="responsive"
+                      layout="fill"
                       placeholder='blur'
                     />
                 </li>
@@ -61,7 +61,7 @@ export default function Work() {
                     </div>
                     <Image
                       src={imagine}
-                      layout="responsive"
+                      layout="fill"
                       placeholder='blur'
                     />
                 </li>
@@ -73,19 +73,7 @@ export default function Work() {
                     </div>
                     <Image
                       src={petplate}
-                      layout="responsive"
-                      placeholder='blur'
-                    />
-                </li>
-                <li className={cn(style.tile, style.wideEnd)}>
-                    <div>
-                      <p></p>
-                      <legend></legend>
-                      <span></span>
-                    </div>
-                    <Image
-                      src={clearworks}
-                      layout="responsive"
+                      layout="fill"
                       placeholder='blur'
                     />
                 </li>
@@ -96,8 +84,8 @@ export default function Work() {
                       <span></span>
                     </div>
                     <Image
-                      src={buzz}
-                      layout="responsive"
+                      src={clearworks}
+                      layout="fill"
                       placeholder='blur'
                     />
                 </li>
@@ -109,7 +97,19 @@ export default function Work() {
                     </div>
                     <Image
                       src={urbano}
-                      layout="responsive"
+                      layout="fill"
+                      placeholder='blur'
+                    />
+                </li>
+                <li className={cn(style.tile, style.wideEnd)}>
+                    <div>
+                      <p></p>
+                      <legend></legend>
+                      <span></span>
+                    </div>
+                    <Image
+                      src={buzz}
+                      layout="fill"
                       placeholder='blur'
                     />
                 </li>

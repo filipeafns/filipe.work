@@ -22,7 +22,7 @@
         width: 100%;
         margin-bottom: 2rem;
         li { 
-            margin-right: $gap;
+            margin-right: calc($gap / 2);
             flex: 1 0 auto;
         }
         li:first-child { margin-left: 1rem;}
