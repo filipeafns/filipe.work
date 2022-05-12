@@ -28,11 +28,9 @@
         img { object-fit: cover; }
         li:first-child { margin-left: 1rem;}
     }
-    @include media(">tablet") {
-        canvas { 
-            min-width: 100%;
-            max-width: 100%;
-        }
+    canvas { 
+        min-width: 100%;
+        max-width: 100%;
     }
     @include media(">tablet") {
         padding: 4rem 0;
