@@ -34,11 +34,11 @@
     }
     @include media(">tablet") {
         padding: 4rem 0;
-        h2, h3, h4 {
-           width: 100%;
-           margin: auto;
-           margin-bottom: $gap;
-           padding: 0;
+        div { 
+            width: $max-width;
+            margin: auto;
+            margin-bottom: $gap;
+            padding: 0;
         }
         ul { 
             display: flex;
