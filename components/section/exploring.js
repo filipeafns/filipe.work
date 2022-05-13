@@ -13,9 +13,11 @@ import lab6 from '../../public/images/lab/lab6.png';
 export default function Exploring() {
     return (
         <section className={style.exploring}>
-          <h2>I'm Exploring</h2>
-          <h3>Design for me has always been about exploring possibilities, either in Print, Code or Beyond. You'll find me exploring new tools and ways to bring amazing things to the our digital lives.</h3>
-          <h4>Recent Exploration</h4>
+          <div>
+            <h2>I'm Exploring</h2>
+            <h3>Design for me has always been about exploring possibilities, either in Print, Code or Beyond. You'll find me exploring new tools and ways to bring amazing things to the our digital lives.</h3>
+            <h4>Recent Exploration</h4>
+          </div>
           <ul>
             <li className={cn(style.tile, style.square)}>
                 <div>
