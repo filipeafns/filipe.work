@@ -11,14 +11,6 @@ import integra from '../../public/images/works/integra.png';
 import petplate from '../../public/images/works/petplate.png';
 import urbano from '../../public/images/works/urbano.png';
 
-
-import dynamic from 'next/dynamic';
-
-const Spline = dynamic(() => import('@splinetool/react-spline'), {
-  ssr: false,
-});
-
-
 export default function Work() {
 
     return (
@@ -45,14 +37,6 @@ export default function Work() {
                       placeholder='blur'
                     />
                 </li>
-                {/* <li className={cn(style.tile, style.square)}>
-                    <div>
-                      <p></p>
-                      <legend></legend>
-                      <span></span>
-                    </div>
-                    <Spline scene="https://prod.spline.design/ll9uBn-RJ0t75phu/scene.splinecode" />
-                </li> */}
                 <li className={cn(style.tile, style.square)}>
                     <div>
                       <p></p>
@@ -61,6 +45,18 @@ export default function Work() {
                     </div>
                     <Image
                       src={imagine}
+                      layout="fill"
+                      placeholder='blur'
+                    />
+                </li>
+                <li className={cn(style.tile, style.square)}>
+                    <div>
+                      <p></p>
+                      <legend></legend>
+                      <span></span>
+                    </div>
+                    <Image
+                      src={dyramid}
                       layout="fill"
                       placeholder='blur'
                     />
@@ -101,7 +97,7 @@ export default function Work() {
                       placeholder='blur'
                     />
                 </li>
-                <li className={cn(style.tile, style.wideEnd)}>
+                <li className={cn(style.tile, style.wideStart)}>
                     <div>
                       <p></p>
                       <legend></legend>

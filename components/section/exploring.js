@@ -21,9 +21,8 @@ export default function Exploring() {
           <ul>
             <li className={cn(style.tile, style.square)}>
                 <div>
-                  <p></p>
-                  <legend></legend>
-                  <span></span>
+                  <h4>AR Filters</h4>
+                  <p>Instragram filters experiment</p>
                 </div>
                 <Image
                   src={lab1}
@@ -33,9 +32,8 @@ export default function Exploring() {
             </li>
             <li className={cn(style.tile, style.square)}>
                 <div>
-                  <p></p>
-                  <legend></legend>
-                  <span></span>
+                  <h4>Animation</h4>
+                  <p>Short animation clip for a local band</p>
                 </div>
                 <Image
                   src={lab2}
@@ -45,9 +43,8 @@ export default function Exploring() {
             </li>
             <li className={cn(style.tile, style.square)}>
                 <div>
-                  <p></p>
-                  <legend></legend>
-                  <span></span>
+                  <h4>Getting Physical</h4>
+                  <p>Music and Figma Prototipation</p>
                 </div>
                 <Image
                   src={lab3}
@@ -57,9 +54,8 @@ export default function Exploring() {
             </li>
             <li className={cn(style.tile, style.square)}>
                 <div>
-                  <p></p>
-                  <legend></legend>
-                  <span></span>
+                  <h4>Creative Coding</h4>
+                  <p>Touchdesigner initial studies</p>
                 </div>
                 <Image
                   src={lab4}
@@ -69,9 +65,8 @@ export default function Exploring() {
             </li>
             <li className={cn(style.tile, style.square)}>
                 <div>
-                  <p></p>
-                  <legend></legend>
-                  <span></span>
+                  <h4>Skeumorphism</h4>
+                  <p>Recreating physical buttons in Figma</p>
                 </div>
                 <Image
                   src={lab5}
@@ -81,9 +76,8 @@ export default function Exploring() {
             </li>
             <li className={cn(style.tile, style.square)}>
                 <div>
-                  <p></p>
-                  <legend></legend>
-                  <span></span>
+                  <h4>Illustration</h4>
+                  <p>Surrealist experiments</p>
                 </div>
                 <Image
                   src={lab6}

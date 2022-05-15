@@ -9,14 +9,16 @@
     @include media(">tablet") { padding: 0; }
     h1 { 
         text-align: center;
+        width: 100%;
         margin: auto;
-        font-size: 3.3rem;
+        font-size: 2.5rem;
         padding: 3rem;
     }
     section {
         position: relative;
         background-color: var(--color-base-light);
         display: flex;
+        -webkit-mask-image: -webkit-radial-gradient(white, black);
         border-radius: calc($radius * 2);
         height: 60vh;
         overflow: hidden;
@@ -33,6 +35,9 @@
         border-radius: calc($radius * 2);
         overflow: hidden;
         transition: transform .2s ease-in-out;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
         &::before {
             position: absolute;
             content: "";
@@ -117,13 +122,6 @@
             margin: auto;
             width: 60%;
             line-height: 1.2;
-        }
-        div {
-            position: absolute;
-            height: 100%;
-            left: 50%;
-            top: 50%;
-            transform: translate(-50%, -50%);
         }
     }
 }
