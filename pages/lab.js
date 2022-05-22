@@ -15,6 +15,14 @@ export default function Works() {
       <div>
         <main>
           <Nav />
+          <div>
+            <h1>H1 Text Example</h1>
+            <h2>H2 Text Example</h2>
+            <h3>H3 Text Example</h3>
+            <h4>H4 Text Example</h4>
+            <h5>H5 Text Example</h5>
+            <p>p Text Example</p>
+          </div>
         </main>
         <Footer /> 
       </div>

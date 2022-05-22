@@ -15,7 +15,7 @@ export default function Header() {
     return (
         <header  className={style.header}>
           <section className={cn(style.title, 'grid container')}>
-            <h1>Hey, I'm Filipe Soares. Product, Branding and Visual Designer.</h1>
+            <h1>I'm Filipe Soares. Product, Branding and Visual Designer.</h1>
             <div>
             <span>
                 <Image

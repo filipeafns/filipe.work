@@ -11,12 +11,17 @@
     h2, h3, h4 {
         width: 100%;
         margin-bottom: $gap;
-        padding: 1rem;
+        padding: .5rem 2rem;
+     }
+    .recent {
+        display: flex;
+        margin-bottom: 1rem;
+        h4 { margin: 0; }
      }
     ul { 
         display: flex;
         overflow-x: scroll;
-        height: 350px;
+        height: 300px;
         flex-direction: row;
         margin: auto;
         width: 100%;
@@ -30,12 +35,9 @@
         img { object-fit: cover; }
         li:first-child { margin-left: 1rem;}
     }
-    canvas { 
-        min-width: 100%;
-        max-width: 100%;
-    }
     @include media(">tablet") {
         padding: 4rem 0;
+        h2, h3, h4 { padding: .5rem 0rem; }
         div { 
             width: $max-width;
             margin: auto;

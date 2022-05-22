@@ -13,17 +13,17 @@ export default function Around() {
           <ul>
             <li>
               <h4>Product Designer</h4>
-              <p>You'll Find me Between Product...</p>
+              <span>You'll Find me Between Product...</span>
               <p>I've been a Generalist Product Designer for the past 5 Years. Recently I developed deep interest for UI Development. Interaction, UI and High Fidelity Prototyping is were i feel confortable. Building Cohesive Design Systems are my main focus right now.</p>
             </li>
             <li>
               <h4>Visual Designer</h4>
-              <p>... and Graphic Design.</p>
+              <span>... and Graphic Design.</span>
               <p>I'm a Graphic Designer from day one. Being able to Comunicate, Inspire, Juggle Color and Typgraphy, Animate, Illustrate and breath design history made me a good designer.</p>
             </li>
             <li>
-              <h4>Or in Both.</h4>
-              <p>You'll Find me Between Product...</p>
+              <h4>New Technologies</h4>
+              <span>Or in both</span>
               <p>Graphic and Product design are a great match and gives me bright skies ahead. I nurture interest for XR, AR, VR and Creative Coding.</p>
             </li>
           </ul>

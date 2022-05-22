@@ -28,7 +28,7 @@ export default function Home() {
           <Exploring />
           <Work />
           <Around />
-          <Social />
+          {/* <Social /> */}
         </main>
         <Footer /> 
       </div>

@@ -7,8 +7,8 @@ export default function Footer() {
             <h2>Bye</h2>
             <div>
                 <div>
-                    <strong>Will I ever hear from you Again?</strong>
-                    <p>Send some love @Lypy</p>
+                    <h4>Will I ever hear from you Again?</h4>
+                    <p>Get in touch filipe.afns@gmail.com</p>
                 </div>
                 <div>
                     <p>Designed In Figma, Coded by Me (HTML & CSS), Built with NEXT.JS and hosted at VERCEL.</p>

@@ -9,10 +9,11 @@
     position: relative;
     max-width: $max-width;
     margin: auto;
-    padding: 1rem;
+    padding: 1rem 2rem;
+    h4 { margin: 0; }
     @include media(">tablet") {
+        padding: 4rem 0;
         >div { 
-            padding: 4rem 0;
             display: grid;
             grid-auto-flow: column;
             grid-template-columns: repeat(3, 1fr);

@@ -9,7 +9,9 @@
     position: relative;
     max-width: $max-width;
     margin: auto;
-    padding: 1rem;
+    padding: 5rem 2rem;
+    h2 { margin-bottom: 3rem; }
+    span { color: var(--color-base); }
     @include media(">tablet") {
         padding: 4rem 0;
         ul { 
