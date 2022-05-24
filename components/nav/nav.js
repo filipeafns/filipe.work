@@ -33,7 +33,12 @@ export default function Nav({ onClick }) {
         <>
             <nav className={style.nav}>
                 <div>
-                    <p>Filipe Soares</p>
+                    <div className={style.logo}>
+                        <svg width="75" height="75" viewBox="0 0 75 75" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M37.5 75C58.2107 75 75 58.2107 75 37.5C75 16.7893 58.2107 0 37.5 0C16.7893 0 0 16.7893 0 37.5C0 58.2107 16.7893 75 37.5 75ZM57.7148 17.8711H20.2148V32.2266V46.2891V60.6445H30.1758V46.2891H41.0156V32.2266H57.7148V17.8711Z" fill="black" />
+                        </svg>
+                        <h4>Filipe Soares</h4>
+                    </div>
                     <div className={cn({ [style.navmodal]: true, [style.open]: isOpen })}>
                         <ul>
                             <li><Link href="/" onClick={handleCloseClick}><a>Home</a></Link></li>

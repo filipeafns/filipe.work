@@ -5,12 +5,20 @@
 @import "../../styles/scaffold";
 
 .nav {
-  p {
-    width: fit-content;
-    display: inline;
-    font-size: 1.5rem;
-    font-weight: 700;
+  .logo {
+    align-items: center;
+    display: flex;
+    flex: 0 0 30%;
     margin: 0;
+    svg { 
+      width: 2.5rem;
+      margin-right: 1rem;
+    }
+    h4 { 
+      display: inline;
+      margin: 0;
+      width: fit-content;
+    }
   }
   > div { padding: 2rem;}
   @include media(">tablet") {
@@ -25,7 +33,7 @@
       margin-top: 25px;
       margin-bottom: 25px;
       width: $max-width;
-      align-items: baseline;
+      align-items: center;
       padding: 0;
       p { flex: 0 20%;}
       div { 
