@@ -8,10 +8,16 @@
     display: grid;
     position: relative;
     margin: auto;
-    h2, h3, h4 {
+    h2, h3 {
         width: 100%;
         margin-bottom: $gap;
-        padding: .5rem 2rem;
+        padding: .5rem 1rem;
+     }
+     div:nth-child(2) {
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         svg { height: 1rem; }
      }
     .recent {
         display: flex;
