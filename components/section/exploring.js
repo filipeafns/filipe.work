@@ -17,7 +17,7 @@ export default function Exploring() {
             <h2>I'm Exploring</h2>
             <h3>Design for me has always been about exploring possibilities, either in Print, Code or Beyond. You'll find me exploring new tools and ways to bring amazing things to the our digital lives.</h3>
           </div>
-        <div className={style.recent}>
+          <div className={style.recent}>
             <h4>Recent Exploration</h4>
             <svg width="69" height="28" viewBox="0 0 69 28" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M14.6875 28L0.6875 14L14.6875 0L17.0938 2.375L7.1875 12.2812H62.5L52.5938 2.375L55 0L69 14L55 28L52.5938 25.5938L62.5 15.7188H7.1875L17.0938 25.5938L14.6875 28Z" fill="black" />
