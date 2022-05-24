@@ -15,7 +15,6 @@
         > div { 
             display: flex; 
             margin-bottom: 4rem;
-            svg { width: 1rem; }
         }
         ul {
             display: grid;
@@ -37,6 +36,7 @@
                 justify-content: space-between;
                 margin-bottom: 5rem;
                 h3 { flex: 35% 0;}
+                svg { width: 1rem; }
             }
         }
         ul { 
