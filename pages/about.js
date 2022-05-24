@@ -9,6 +9,7 @@ export default function About() {
       <Head>
         <title>Filipe Soares. Product and Visual Designer</title>
         <meta name="description" content="Filipe Soares. Product and Visual Designerp" />
+        <meta name="theme-color" content="#5d3acf" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div>
