@@ -26,88 +26,46 @@ export default function Work() {
             <div>
               <ul className={cn('grid')}>
                 <li className={cn(style.tile, style.wideEnd)}>
-                    <div>
-                      <p></p>
-                      <legend></legend>
-                      <span></span>
-                    </div>
-                    <Image
-                      src={integra}
-                      layout="fill"
-                      placeholder='blur'
+                  <Image
+                    src={integra}
+                    layout="fill"
+                    placeholder='blur'
+                  />
+                </li>
+              <li className={cn(style.tile, style.wideStart)}>
+                  <Image
+                    src={dyramid}
+                    layout="fill"
+                    placeholder='blur'
                     />
                 </li>
                 <li className={cn(style.tile, style.square)}>
-                    <div>
-                      <p></p>
-                      <legend></legend>
-                      <span></span>
-                    </div>
-                    <Image
-                      src={imagine}
-                      layout="fill"
-                      placeholder='blur'
-                    />
+                  <Image
+                    src={petplate}
+                    layout="fill"
+                    placeholder='blur'
+                  />
                 </li>
                 <li className={cn(style.tile, style.square)}>
-                    <div>
-                      <p></p>
-                      <legend></legend>
-                      <span></span>
-                    </div>
-                    <Image
-                      src={dyramid}
-                      layout="fill"
-                      placeholder='blur'
-                    />
+                  <Image
+                    src={urbano}
+                    layout="fill"
+                    placeholder='blur'
+                  />
                 </li>
                 <li className={cn(style.tile, style.wideEnd)}>
-                    <div>
-                      <p></p>
-                      <legend></legend>
-                      <span></span>
-                    </div>
-                    <Image
-                      src={petplate}
-                      layout="fill"
-                      placeholder='blur'
-                    />
+                  <Image
+                    src={clearworks}
+                    layout="fill"
+                    placeholder='blur'
+                  />
                 </li>
                 <li className={cn(style.tile, style.wideStart)}>
-                    <div>
-                      <p></p>
-                      <legend></legend>
-                      <span></span>
-                    </div>
-                    <Image
-                      src={clearworks}
-                      layout="fill"
-                      placeholder='blur'
-                    />
-                </li>
-                <li className={cn(style.tile, style.square)}>
-                    <div>
-                      <p></p>
-                      <legend></legend>
-                      <span></span>
-                    </div>
-                    <Image
-                      src={urbano}
-                      layout="fill"
-                      placeholder='blur'
-                    />
-                </li>
-                <li className={cn(style.tile, style.wideStart)}>
-                    <div>
-                      <p></p>
-                      <legend></legend>
-                      <span></span>
-                    </div>
-                    <Image
-                      src={buzz}
-                      layout="fill"
-                      placeholder='blur'
-                    />
+                  <Image
+                    src={buzz}
+                    layout="fill"
+                    placeholder='blur'
+                  />
                 </li>
               </ul>
             </div>

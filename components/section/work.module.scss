@@ -41,7 +41,7 @@
         }
         ul { 
             grid-template-columns: repeat(3, 1fr);
-            grid-template-rows: repeat(5, 1fr);
+            grid-template-rows: repeat(4, 1fr);
         }
     }
     .tile {
@@ -50,13 +50,17 @@
         border-radius: calc($radius * 2);
         overflow: hidden;
         -webkit-mask-image: -webkit-radial-gradient(white, black);
-        span { transition: all .2s ease-in-out; }
+        span { transition: all .3s ease-in-out; }
         span:hover { transform: scale(1.02); }
         div:first-of-type { position: absolute; }
         img {
             display: flex;
             object-fit: cover;
             min-width: 100%;
+        }
+        &:hover { 
+            transform: scale(1.02); 
+            transition: all .2s ease-out;
         }
         @include media("<tablet") { aspect-ratio: 1 / 1; }
     }    
@@ -71,5 +75,3 @@
         }
     }
 }
-
-

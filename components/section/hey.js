@@ -8,7 +8,7 @@ export default function Hey() {
             <li>
               <h3>VTEX</h3>
             <span>Now - 2021</span>
-              <p>Currently at VTEX developing for the future of e–commerce. I'm a Staff Designer building the FastStore UI.</p>
+              <p>Currently at VTEX developing for the future of e–commerce. I'm a Senior Product Designer building the FastStore UI.</p>
             </li>
             <li>
               <h3>Guava Software</h3>
