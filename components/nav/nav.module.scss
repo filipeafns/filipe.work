@@ -41,10 +41,11 @@
         width: 100%;
         ul { 
           display: flex;
+          flex-direction: row-reverse;
           flex-direction: row;
           width: 100%;
         }
-        ul:nth-child(2) { flex-direction: row-reverse;}
+        ul { flex-direction: row-reverse;}
         li { margin-right: 1rem;}
       }
     }
