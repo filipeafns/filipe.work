@@ -15,7 +15,7 @@ export default function Exploring() {
         <section className={style.exploring}>
           <div>
             <h2>I'm Exploring</h2>
-            <h3>Design for me has always been about exploring possibilities, either in Print, Code or Beyond. You'll find me exploring new tools and ways to bring amazing things to the our digital lives.</h3>
+            <h3>Design, for me, has always been about exploring possibilities. Either in Print, Code, or Beyond, you'll find me exploring new tools and ways to bring amazing things into existence.</h3>
           </div>
           <div className={style.recent}>
             <h4>Recent Exploration</h4>
@@ -27,7 +27,7 @@ export default function Exploring() {
             <li className={cn(style.tile, style.square)}>
                 <div>
                   <h4>AR Filters</h4>
-                  <p>Instragram filters experiment</p>
+                  <p>Instragram filter experiment</p>
                 </div>
                 <Image
                   src={lab1}
