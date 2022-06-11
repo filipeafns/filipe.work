@@ -35,13 +35,6 @@ export default function Home() {
         <meta property="twitter:image" content="https://filipe.work/images/pagethumb.png" />
 
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-X8CKT7ZZS5"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', 'G-X8CKT7ZZS5');
-        </script>
       </Head>
       <div className={style.index}>
         <main>
