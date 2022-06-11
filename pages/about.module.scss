@@ -1,0 +1,42 @@
+///////////////////////////////////////////////////////////////////////////////
+// About Section                                                             //
+///////////////////////////////////////////////////////////////////////////////
+
+@import "../styles/scaffold";
+
+.about {
+    position: relative;
+    background-color: black;
+    color: white;
+    margin: auto;
+    button { border: 1px solid white; }
+    nav svg { fill: white; }
+    nav a { color: white;}
+    > section { padding: 1rem; }
+    .intro {
+        h1 { margin: 0;}
+        p { font-size: 2rem;}
+    }
+    @include media(">tablet") {
+        p { font-size: 1.5rem; }
+        > section {
+            max-width: 1440px;
+            margin: auto;
+            padding: 10rem 2rem;
+        }
+        .intro {
+            width: 50%;
+            margin-bottom: 5rem;
+            h1 { margin-bottom: 2rem; }
+        }
+        .me {
+            div {
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                margin-bottom: 3rem;
+                h4 { grid-column: span 1/2;}
+                p {grid-column: 2/-1;}
+            }
+        }
+    }
+}
