@@ -10,10 +10,18 @@
     color: white;
     margin: auto;
     button { border: 1px solid white; }
+    nav { mix-blend-mode: difference; }
     nav svg { fill: white; }
     nav a { color: white;}
     > section { padding: 1rem; }
     .intro {
+        > div { 
+            display: flex;
+            align-items: center;
+            height: auto;
+            img { mix-blend-mode: luminosity;}
+            h1 { margin-left: 2rem; }
+        }
         h1 { margin: 0;}
         p { font-size: 2rem;}
     }
@@ -27,15 +35,15 @@
         .intro {
             width: 50%;
             margin-bottom: 5rem;
-            h1 { margin-bottom: 2rem; }
+            > div { margin-bottom: 4rem; }
         }
         .me {
             div {
                 display: grid;
-                grid-template-columns: repeat(4, 1fr);
+                grid-template-columns: repeat(5, 1fr);
                 margin-bottom: 3rem;
-                h4 { grid-column: span 1/2;}
-                p {grid-column: 2/-1;}
+                h4 { grid-column: span 1/3;}
+                p {grid-column: 3/-1;}
             }
         }
     }

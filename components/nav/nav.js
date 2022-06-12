@@ -40,13 +40,13 @@ export default function Nav({ onClick }) {
                         <h4>Filipe Soares</h4>
                     </div>
                     <div role="navigation" aria-label="Main Navigation" className={cn({ [style.navmodal]: true, [style.open]: isOpen })}>
-                        <ul role="presentation">
+                        <ul className={style.links} role="presentation">
                             <li role="presentation"><Link href="/" onClick={handleCloseClick}><a>Home</a></Link></li>
                             <li role="presentation"><Link href="/about" onClick={handleCloseClick}><a>↳ About Me</a></Link></li>
-                            {/* <li role="presentation"><Link href="/lab" onClick={handleCloseClick}><a>↳ Lab</a></Link></li>
-                            <li role="presentation"><Link href="/contact"onClick={handleCloseClick}><a>↳ Contact</a></Link></li> */}
+                            <li role="presentation"><Link href="/lab" onClick={handleCloseClick}><a>↳ Lab</a></Link></li>
+                            <li role="presentation"><Link href="/contact"onClick={handleCloseClick}><a>↳ Contact</a></Link></li>
                         </ul>
-                        <ul role="presentation" className={style.social}>
+                        <ul className={style.social} role="presentation" className={style.social}>
                             <li role="presentation"><a href="http://linkedin.com/in/fisoares" target="_blank">Linkedin -></a></li>
                             <li role="presentation"><a href="http://instagram.com/filipeafns/" target="_blank">Instagram -></a></li>
                         </ul>
