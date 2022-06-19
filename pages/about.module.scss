@@ -7,12 +7,11 @@
 .about {
     position: relative;
     background-color: black;
-    color: white;
+    color: var(--white);
     margin: auto;
-    button { border: 1px solid white; }
+    button { border: 1px solid var(--black); }
     nav { mix-blend-mode: difference; }
-    nav svg { fill: white; }
-    nav a { color: white;}
+    nav a { color: var(--white);}
     > section { padding: 1rem; }
     .intro {
         > div { 
