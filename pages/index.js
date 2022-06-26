@@ -7,7 +7,6 @@ import Hey from '../components/section/hey'
 import Exploring from '../components/section/exploring'
 import Work from '../components/section/work'
 import Around from '../components/section/around'
-import Social from '../components/section/social'
 import Footer from '../components/footer'
 
 import style from './index.module.scss';
