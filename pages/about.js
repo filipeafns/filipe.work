@@ -13,50 +13,83 @@ export default function About() {
     <Layout about>
       <Head>
         <title>Filipe Soares. Product and Visual Designer</title>
-        <meta name="description" content="Filipe Soares. Product and Visual Designerp" />
+        <meta
+          name="description"
+          content="Filipe Soares. Product and Visual Designerp"
+        />
         <meta name="theme-color" content="#5d3acf" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={style.about}>
-          <Nav />
-          <section>
-            <div className={style.intro} >
-              <div>
-                <Image
-                  src={profile}
-                  width={100}
-                  height={100}
-                  placeholder='blur'
-                  role='presentation'
-                />
-                <h1>Filipe Soares</h1>
-              </div>
+        <Nav />
+        <section>
+          <div className={style.intro}>
+            <div>
+              <Image
+                src={profile}
+                width={80}
+                height={80}
+                placeholder="blur"
+                role="presentation"
+              />
+              <h1>Filipe Soares</h1>
+            </div>
+            <p>
+              Hi, I'm a Interaction and visual Designer based in Recife,
+              Northeast Brazil 🏖, and for the past eleven years, I've had the
+              chance to explore a couple of exciting fields. I started as a
+              Graphic Designer, gained experience as Art Director, and later
+              become an Product designer.
+            </p>
+          </div>
+          <div className={style.me}>
+            <div>
+              <h3>Experience</h3>
               <p>
-                Hi, I'm a Interaction and visual Designer based in Recife, Northeast Brazil 🏖, and for the past ten years, I've had the chance to explore a couple of exciting fields. I started as a Graphic Designer, gained experience as Art Director, and later become an Product designer.
+                The layers are many. In 2011 I graduated in Graphic Design and
+                worked for 3 years in Branding and Web. Later, I had the chance
+                to jump into Advertising and became an Art Director for 6 years.
+                This role allowed me to tailor the skills I use to this day and
+                are complementary to problem-solving and communication. In 2017
+                I decided to go fully digital and started working as a Product
+                Designer for a Software company called Guava. As a unicorn
+                product designer, I've had the chance to work with clients from
+                day one to the final delivery, from Ideation to front-end. Guava
+                was Aqhired in 2021 by VTEX, and today my team develop an
+                Amazing product called FastStore.
               </p>
             </div>
-            <div  className={style.me} >
-              <div>
-                <h3>Now</h3>
-                <p>Today I build tools that help developers create storefronts using the VTEX plataform. I'm responsible for caring for their overall experience when using our workflow, keeping and creating features for a brandless design system.</p>
-              <p>There's no way i'd be here today if it wasn't my extreme curiosity. It's very hard for me to settle with bare minimum, I'm always looking for ways to dive deeper and exploring every single corner, have my hands along the journey is a prime. It's not hard for me to navigate between Graphic, Product  Design and Frontend these days.</p>
-              </div>
-              <div>
-                <h3>Future</h3>
-                <p>The more we grow as Product or Interaction Designers, more ground we have to cover. Most recently I decided to focus mainly on UI Engeneering and Interaction, so i can give the proper care design systems demand. From creation, maintenance and sync along Figma and Code.</p>
-                <p>The future it's just around the corner, and I look forward to solve problems, create interfaces and project for a myriad of areas. eCommerce, Fintechs, Web3 and Auto have my attention.</p>
-              </div>
-              <div>
-                <h3>Experience</h3>
-                <p>Long before i even know i'd like to become a Interaction designer, i used to study HTML in a old Nokia Phone(2005), as a teenager, my hobby was to customize my blogger page and improve on CSS.</p>
-                <p>Even though i had a passion for the web, i ended up in Graphic design.
-                  Print brought me a lot of love for Colors and Typography, culminating in total love for branding. I can count 100s of logos and prints in the wild today (2010 – 2019).</p>
-                <p>Still missing the chance to work with Interaction, I decided to go full interaction for my graduation project 2011. Since the course was print focused, i decided to bring print to the recently lauch ipad2. I was the first Digital Magazine deployed in Brazil through the App Store. The project became a reference in the School I was and they had to bring interaction design to the curriculum. You can check the project here</p>
-              </div>
+            <div>
+              <h3>Now</h3>
+              <p>
+                Today, I face the ever-changing and expanding environment that
+                is UI Engineering. Even though I can navigate easily between UX
+                and UI, my goals, passion for the craft and responsibilities
+                shift towards tailoring great experiences. From complex design
+                systems, excellent interaction design to state-of-the-art
+                interfaces.
+              </p>
+              <p>
+                Parallel to that, you will find me a curious being, exploring
+                new technologies and gravitating towards the things that will
+                shape our lives next. From Prompt design with AI tools,
+                Blockchains to Augmented reality.
+              </p>
             </div>
-          </section>
+            <div>
+              <h3>Future</h3>
+              <p>
+                The future is just around the corner and we — as designers — have a
+                lot of ground to cover. This decade is already facing a surge in
+                new technology and needs our skills to grant inclusion and
+                accessibility. I'm committed to being part of this future. To
+                build the tools that are going to shape our daily lives next.
+              </p>
+            </div>
+          </div>
+        </section>
       </main>
-      <Footer /> 
+      <Footer />
     </Layout>
-  )
+  );
 }
