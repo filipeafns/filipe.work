@@ -1,16 +1,17 @@
 import Link from "next/link";
 import cn from "classnames";
-import { useState } from "react";
+import React, { useState, useEffect } from "react";
+
 
 import style from "./nav.module.scss";
 
-export default function Nav({ onClick }) {
+export default function Nav() {
   const [isOpen, setIsOpen] = useState(false);
 
   const handleOpenCloseClick = () => {
     setIsOpen((value) => {
-      if (value) {
-        document.body.style.overflow = "hidden";
+      if (!value) {
+        document.body.style.overflow = "open";
       } else {
         document.body.style.overflow = null;
       }
@@ -77,7 +78,11 @@ export default function Nav({ onClick }) {
                 </a>
               </li>
             </ul>
-            <button onClick={handleOpenCloseClick} aria-label="open main menu">
+            <button
+              onClick={handleOpenCloseClick}
+              open={isOpen}
+              aria-label="open main menu"
+            >
               <span></span>
               <span></span>
             </button>
