@@ -72,8 +72,8 @@ export default function About() {
               <p>
                 Parallel to that, you will find me a curious being, exploring
                 new technologies and gravitating towards the things that will
-                shape our lives next. From Prompt design with AI tools,
-                Blockchains to Augmented reality.
+                shape our lives next. From Prompt design with AI tools and
+                AR/XR to Motion design.
               </p>
             </div>
             <div>
@@ -82,8 +82,7 @@ export default function About() {
                 The future is just around the corner and we — as designers — have a
                 lot of ground to cover. This decade is already facing a surge in
                 new technology and needs our skills to grant inclusion and
-                accessibility. I'm committed to being part of this future. To
-                build the tools that are going to shape our daily lives next.
+                accessibility. I'm committed to being part of this future.
               </p>
             </div>
           </div>
