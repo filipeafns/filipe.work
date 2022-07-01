@@ -19,6 +19,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
 
         <title>Filipe Soares — Product, Branding and Visual Designer.</title>
+
+        <meta name="theme-color" content="#211d1d" />
         <meta name="title" content="Filipe Soares — Product, Branding and Visual Designer." />
         <meta name="description" content="Hey, I'm Filipe Soares, Senior Visual and Interaction designer, extremely curious, creative, and passionate about solving problems. For the past eleven years, I've had the chance to explore the most exciting fields. I started as a Graphic Designer, gained experience as Art Director, and later become an Interaction designer. I'm triggered by the opportunity to forge great experiences and engage people with the skills I've acquired over the years in Branding, Motion Design, Illustration and, Interaction." />
 
@@ -33,19 +35,6 @@ export default function Home() {
         <meta property="twitter:title" content="Filipe Soares — Product, Branding and Visual Designer." />
         <meta property="twitter:description" content="Hey, I'm Filipe Soares, Senior Visual and Interaction designer, extremely curious, creative, and passionate about solving problems. For the past eleven years, I've had the chance to explore the most exciting fields. I started as a Graphic Designer, gained experience as Art Director, and later become an Interaction designer. I'm triggered by the opportunity to forge great experiences and engage people with the skills I've acquired over the years in Branding, Motion Design, Illustration and, Interaction." />
         <meta property="twitter:image" content="https://filipe.work/images/pagethumb.png" />
-
-        <Script async src="https://www.googletagmanager.com/gtag/js?id=G-X8CKT7ZZS5" />
-        <Script strategy="lazyOnload">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}', {
-            page_path: window.location.pathname,
-            });
-          `}
-        </Script>
-        
       </Head>
       <div className={style.index}>
         <main>
