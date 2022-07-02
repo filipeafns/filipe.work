@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Script from 'next/script';
+import Script from 'next/script'
 
 import Layout, { siteTitle } from '../components/layout';
 import Nav from '../components/nav'
@@ -9,9 +9,8 @@ import Exploring from '../components/section/exploring'
 import Work from '../components/section/work'
 import Around from '../components/section/around'
 import Footer from '../components/footer'
-import Script from 'next/script'
 
-import style from './index.module.scss';
+import style from './index.module.scss'
 
 export default function Home() {
   return (
@@ -36,7 +35,6 @@ export default function Home() {
         <meta property="twitter:description" content="Hey, I'm Filipe Soares, Senior Visual and Interaction designer, extremely curious, creative, and passionate about solving problems. For the past eleven years, I've had the chance to explore the most exciting fields. I started as a Graphic Designer, gained experience as Art Director, and later become an Interaction designer. I'm triggered by the opportunity to forge great experiences and engage people with the skills I've acquired over the years in Branding, Motion Design, Illustration and, Interaction." />
         <meta property="twitter:image" content="https://filipe.work/images/pagethumb.png" />
 
-        <!-- Global site tag (gtag.js) - Google Analytics -->
         <Script async 
           src="https://www.googletagmanager.com/gtag/js?id=G-X8CKT7ZZS5"
           strategy="afterInteractive"
