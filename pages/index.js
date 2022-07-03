@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Script from 'next/script'
 
 import Layout, { siteTitle } from '../components/layout';
 import Nav from '../components/nav'
@@ -35,19 +34,6 @@ export default function Home() {
         <meta property="twitter:description" content="Hey, I'm Filipe Soares, Senior Visual and Interaction designer, extremely curious, creative, and passionate about solving problems. For the past eleven years, I've had the chance to explore the most exciting fields. I started as a Graphic Designer, gained experience as Art Director, and later become an Interaction designer. I'm triggered by the opportunity to forge great experiences and engage people with the skills I've acquired over the years in Branding, Motion Design, Illustration and, Interaction." />
         <meta property="twitter:image" content="https://filipe.work/images/pagethumb.png" />
 
-        <Script async 
-          src="https://www.googletagmanager.com/gtag/js?id=G-X8CKT7ZZS5"
-          strategy="afterInteractive"
-        />
-        <Script strategy="afterInteractive">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-
-            gtag('config', 'G-X8CKT7ZZS5');
-          `}
-        </Script>
       </Head>
       <div className={style.index}>
         <main>
