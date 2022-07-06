@@ -13,61 +13,61 @@ import lab6 from '../../public/images/lab/lab6.png';
 
 export default function Header() {
     return (
-        <header role="presentation" className={style.header}>
-          <section className={cn(style.title, 'grid container')}>
-            <h1>I'm Filipe Soares. Product, Branding and Visual Designer.</h1>
+      <header role="presentation" className={style.header}>
+        <section className={cn(style.title, "grid container")}>
+          <h1>I'm Filipe Soares. Product, Branding & Motion Designer.</h1>
           <div>
-              <span>
-                  <Image
-                    src={lab1}
-                    layout="fill"
-                    placeholder='blur'
-                    aria-hidden="true"
-                  />
-              </span>
-              <span>
-                  <Image
-                    src={lab2}
-                    layout="fill"
-                    placeholder='blur'
-                    aria-hidden="true"
-                  />
-              </span>
-              <span>
-                  <Image
-                    src={lab3}
-                    layout="fill"
-                    placeholder='blur'
-                    aria-hidden="true"
-                  />
-              </span>
-              <span>
-                  <Image
-                    src={lab4}
-                    layout="fill"
-                    placeholder='blur'
-                    aria-hidden="true"
-                  />
-              </span>
-              <span>
-                  <Image
-                    src={lab5}
-                    layout="fill"
-                    placeholder='blur'
-                    aria-hidden="true"
-                  />
-              </span>
-              <span>
-                  <Image
-                    src={lab6}
-                    layout="fill"
-                    placeholder='blur'
-                    aria-hidden="true"
-                  />
-              </span>
-            </div>
-            {/* <Spline scene="https://prod.spline.design/rlUVl0RxykOsS2kZ/scene.splinecode" /> */}
-          </section>
-        </header>
-    )
+            <span>
+              <Image
+                src={lab1}
+                layout="fill"
+                placeholder="blur"
+                aria-hidden="true"
+              />
+            </span>
+            <span>
+              <Image
+                src={lab2}
+                layout="fill"
+                placeholder="blur"
+                aria-hidden="true"
+              />
+            </span>
+            <span>
+              <Image
+                src={lab3}
+                layout="fill"
+                placeholder="blur"
+                aria-hidden="true"
+              />
+            </span>
+            <span>
+              <Image
+                src={lab4}
+                layout="fill"
+                placeholder="blur"
+                aria-hidden="true"
+              />
+            </span>
+            <span>
+              <Image
+                src={lab5}
+                layout="fill"
+                placeholder="blur"
+                aria-hidden="true"
+              />
+            </span>
+            <span>
+              <Image
+                src={lab6}
+                layout="fill"
+                placeholder="blur"
+                aria-hidden="true"
+              />
+            </span>
+          </div>
+          {/* <Spline scene="https://prod.spline.design/rlUVl0RxykOsS2kZ/scene.splinecode" /> */}
+        </section>
+      </header>
+    );
 }

@@ -35,7 +35,7 @@ export default function About() {
               <h1>Filipe Soares</h1>
             </div>
             <p>
-              Hi, I'm a Interaction and visual Designer based in Recife,
+              Hi, I'm a Interaction, visual and Motion Designer based in Recife,
               Northeast Brazil 🏖, and for the past eleven years, I've had the
               chance to explore a couple of exciting fields. I started as a
               Graphic Designer, gained experience as Art Director, and later
