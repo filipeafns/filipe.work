@@ -59,6 +59,11 @@ export default function Nav() {
                   ↳ About Me
                 </Link>
               </li>
+              <li role="presentation">
+                <Link href="/reel" onClick={handleCloseClick} spy={true}>
+                  ↳ Reel
+                </Link>
+              </li>
               {/* <li role="presentation"><Link href="/lab" onClick={handleCloseClick}>↳ Lab</Link></li>
                             <li role="presentation"><Link href="/contact"onClick={handleCloseClick}>↳ Contact</Link></li> */}
             </ul>
