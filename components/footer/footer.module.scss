@@ -5,19 +5,25 @@
 @import "../../styles/scaffold";
 
 .footer {
-    display: grid;
-    position: relative;
-    max-width: $max-width;
-    margin: auto;
-    padding: 1rem;
-    h4 { margin: 0; }
-    @include media(">tablet") {
-        padding: 4rem 0;
-        >div { 
-            display: grid;
-            grid-auto-flow: column;
-            grid-template-columns: repeat(3, 1fr);
-            column-gap: $gap;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: -1;
+    > div{
+        display: grid;
+        position: relative;
+        max-width: $max-width;
+        margin: auto;
+        padding: 1rem;
+        h4 { margin: 0; }
+        @include media(">tablet") {
+            padding: 4rem 0;
+            >div { 
+                display: grid;
+                grid-auto-flow: column;
+                grid-template-columns: repeat(3, 1fr);
+                column-gap: $gap;
+            }
         }
     }
 }
