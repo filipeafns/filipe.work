@@ -13,12 +13,15 @@
     h2 { margin-bottom: 3rem; }
     span { color: var(--color-base); }
     @include media(">tablet") {
-        padding: 4rem 0;
+        padding: 4rem 2rem 0;
         ul { 
             display: grid;
             grid-auto-flow: column;
             grid-template-columns: repeat(4, 1fr);
             column-gap: $gap;
         }
+    }
+    @include media(">desktop") {
+        padding: 4rem 0 0;
     }
 }

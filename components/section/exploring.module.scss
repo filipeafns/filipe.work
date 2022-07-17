@@ -43,13 +43,13 @@
         li:first-child { margin-left: 1rem;}
     }
     @include media(">tablet") {
-        padding: 4rem 0;
+        padding: 2rem 0;
         h2, h3, h4 { padding: .5rem 0rem; }
         div { 
-            width: $max-width;
+            padding: 2rem;
+            width: 100%;
             margin: auto;
             margin-bottom: $gap;
-            padding: 0;
         }
         ul { 
             display: flex;
@@ -61,6 +61,12 @@
             margin-bottom: 2rem;
             li:first-child { margin-left: calc((100% - 1400px) / 2 );}
             &::-webkit-scrollbar { display: none; }
+        }
+    }
+    @include media(">desktop") {
+        div { 
+            width: $max-width;
+            padding: 4rem 0;
         }
     }
     .tile {

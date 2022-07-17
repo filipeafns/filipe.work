@@ -119,12 +119,15 @@
         max-width: $max-width;
         margin: auto;
         align-items: center;
-        padding-top: 8rem;
+        padding: 8rem 2rem 0rem;
         h1 {
             margin: auto;
             width: 60%;
             line-height: 1.2;
         }
+    }
+    @include media(">desktop") {
+        padding: 8rem 0rem 0rem;
     }
 }
 

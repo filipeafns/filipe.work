@@ -16,7 +16,7 @@
     span { color: var(--color-base); }
     p { margin-top: .5rem; }
     @include media(">tablet") {
-        padding: 4rem 0;
+        padding: 4rem 2rem 1rem;
         div {
             div {
                 display: grid;
@@ -33,4 +33,5 @@
             margin: auto;
         }
     }
+    @include media(">desktop") { padding: 4rem 1rem; }
 }

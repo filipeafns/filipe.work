@@ -65,7 +65,7 @@
       margin-bottom: 25px;
       width: $max-width;
       align-items: center;
-      padding: 0;
+      padding: 0 2rem;
       p { flex: 0 20%;}
       .links { 
         display: flex;
@@ -84,6 +84,11 @@
       }
     }
   }
+  
+  @include media(">desktop") {
+    > div { padding: 0; }
+  }
+
   button {
     position: absolute;
     position: fixed;
