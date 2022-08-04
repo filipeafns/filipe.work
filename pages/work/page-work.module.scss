@@ -1,0 +1,30 @@
+///////////////////////////////////////////////////////////////////////////////
+// Portfolio's Main Page                                                     //
+///////////////////////////////////////////////////////////////////////////////
+
+@import "../../styles/scaffold";
+
+.pagework {
+    position: relative;
+    .intro {
+        max-width: $max-width;
+        margin: auto;
+        padding: 1rem;
+        position: relative;
+    }
+    .plate {
+        max-width: 100%;
+        background-color: var(--white);
+        div {
+            max-width: $max-width;
+            margin: auto;
+        }
+    }
+    img { border-radius: $radius; }
+    @include media(">tablet") {
+        .intro { 
+            padding: 8rem 0 4rem ;
+            p { width: 40%;}
+        }
+    }
+}
