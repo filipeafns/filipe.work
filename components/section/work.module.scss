@@ -23,6 +23,7 @@
             flex-direction: row;
             gap: calc($gap);
         }
+        li { cursor: pointer;}
     }
     @include media(">tablet") {
         padding: 4rem 2rem 0;
