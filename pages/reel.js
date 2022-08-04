@@ -16,7 +16,6 @@ export default function Reel() {
           name="description"
           content="Filipe Soares. Product and Visual Designerp"
         />
-        <meta name="theme-color" content="#5d3acf" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={style.about}>
