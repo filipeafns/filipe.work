@@ -1,5 +1,6 @@
 import style from './work.module.scss';
 import cn from 'classnames';
+import Link from "next/link";
 
 import Image from 'next/image';
 
@@ -43,7 +44,9 @@ export default function Work() {
                 <Image src={integra} layout="fill" placeholder="blur" />
               </li>
               <li className={cn(style.tile, style.wideStart)}>
-                <Image src={dyramid} layout="fill" placeholder="blur" />
+                <Link href="/work/dyramid">
+                  <Image src={dyramid} layout="fill" placeholder="blur" />
+                </Link>
               </li>
               <li className={cn(style.tile, style.square)}>
                 <Image src={petplate} layout="fill" placeholder="blur" />
